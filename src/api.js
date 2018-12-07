@@ -32,7 +32,7 @@ module.exports=function(){
           }else{
             data=JSON.stringify(body,null,2)
           }
-          fs.writeFile(`${d}/mock/${method}${url.replace(extname,'.json')}`,data,function (err) {
+          fs.writeFile(`${d}/mock/${method}${url}.json`,data,function (err) {
             err&&console.error(err)
           })
         })

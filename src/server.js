@@ -6,7 +6,7 @@ module.exports=function(){
   const app=new express()
   app.use((req,res)=>{
     const method=req.method.toLowerCase();
-    const url=req.url.replace(/(\.\w+)$/,'.json');
+    const url=req.url+'.json';
     const data=require(d+'/mock/'+method+url)
     res.send(data)
   })
