@@ -1,0 +1,17 @@
+{
+  "name": "swa-sq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "swa": "./index.js"
+  },
+  "scripts": {},
+  "author": "guoquankai",
+  "license": "ISC",
+  "devDependencies": {
+    "commander": "^2.19.0",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
+}
